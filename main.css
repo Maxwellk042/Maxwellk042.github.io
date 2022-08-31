@@ -1,3 +1,7 @@
+.title {
+ font-size: 22px;
+}
+
 body {
     background: #ccc;
 }
@@ -5,7 +9,7 @@ body {
 .mytabs {
     display: flex;
     flex-wrap: wrap;
-    max-width: 63%;
+    width: 65%;
     margin: auto;
     padding: 1vh;
 }
@@ -15,13 +19,14 @@ body {
 }
 
 .mytabs label {
-    padding: 1vw;
+    padding: 1vh;
     background: black;
     font-weight: bold;
 }
 /* selected tab */
 .mytabs .tab {
     width: 100%;
+    min-height: 100vh;
     padding: 0em;
     background: grey;
     order: 1;

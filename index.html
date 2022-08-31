@@ -11,8 +11,8 @@
         body {
             font-family: Helvetica, sans-serif;
             line-height: 5vh;
-            margin-left: 10vw;
-            margin-right: 25vw;
+            margin-left: 7%;
+            margin-right: 7%;
             margin-top: 1vh;
             background-color: #212121;
             color: #eeeeee;
@@ -35,7 +35,10 @@
     <br>
 </head>
 <img src="cgclogo.png" alt="Club Logo" align="right" width="120" height="auto">
-<h1>Cooking and Gardening Club</h1>
+<div class="title" style="position:relative; top: -10px;">
+<h1>Cooking and <br>
+    Gardening Club</h1>
+</div>
 
 <div class="mytabs">
     <input type="radio" id="Home" name="Clubs" checked="checked">
@@ -43,57 +46,98 @@
     <div class="tab">
         <p>Hello, We are the Cooking and Gardening Club for <a href="https://dsu.edu ">Dakota State University</a>. We are a club
         that tries to show others on campus ways to cook. We try to get our memebers to engage in some form of
-        gardening.<br>
+        gardening.<br><br>
 
         Some contact info:<br>
 
         <b>President</b> Daniel<br>
         &emsp;Discord: Mocha#3136
         <br>
+        &emsp;Email: daniel.eager@trojans.dsu.edu
+        <br>
         <b>Vice-President</b>: Maxwell<br>
         &emsp;Discord: DashinRed#4210
         <br>
-        <b>Treasuer</b>: Lucas<br>
+        &emsp;Email: maxwell.kane@trojans.dsu.edu
+        <br>
+        <b>Treasurer</b>: Lucas<br>
         &emsp;Discord: Suka#7777
+        <br>
+        &emsp;Email: lucas.leiting@trojans.dsu.edu
         <br>
         <b>Event Coordinator</b>: Tara<br>
         &emsp;Discord: ReighFye#4646
         <br>
+        &emsp;Email: tara.freeburg@trojans.dsu.edu
+        <br>
         <b>Public Relations</b>: Aaron<br>
         &emsp;Discord: aye aye ron#6387
         <br>
+        &emsp;Email: aaron.falk@trojans.dsu.edu
+        <br>
         <b>Advisor</b>: Tom<br>
         &emsp;Discord: halverto#2740
+        <br>
+        &emsp;Email: Tom.Halverson@dsu.edu
         <br><br>
-        Our Club <a href="https://discord.gg/mM5Y78suYX">Discord</a><br>
-        Our Club <a href="https://twitter.com/DSUCookGarden?s=20&t=aN8H0ftzffm9mtCKmfPxbA">Twitter</a>
+
     </p>
     </div>
     <input type="radio" id="Gardening" name="Clubs">
     <label for="Gardening">Gardening</label>
     <div class="tab">
-        <p>Welcome to the Gardening part of our club.
-    </div>
-    <input type="radio" id="Cooking" name="Clubs">
-    <label for="Cooking">Cooking</label>
-    <div class="tab">
-        <p>Welcome to the Cooking part of our club.</p>  
-
-    </div>
-    <input type="radio" id="Projects" name="Clubs">
-    <label for="Projects">Projects</label>
-    <div class="tab">
-        <p>Our club has helped out our community here at DSU through a multitude of projects.</p>
+        <h3>Welcome to the Gardening part of our club.</h3>
+        <p>
+            Gardening is a passion that a lot of us share and that many of us are interested to learn more about.
+            We want to try and engage everyone in the club to learn something new about gardening whether you have
+            a green thumb or rarely touch grass. In the past we have given out plants to our members to see how long
+            everyone could keep their plant alive, this is just one of the many activies we do here.
+            <br><br>
+            Our club has helped out our community here at DSU through a multitude of projects.
             <div class="begin">
                 <img src="beginning.jpg" alt="Begin" align="right" width="175" height="auto">
             </div>
             <br>
-            <p>   This last summer we have given our time to take care of a plot in Madison's Community
+                This last summer we have given our time to take care of a plot in Madison's Community
                 Gardens where we planted potatoes. Some will be donated to the food bank in Madison and
                 the rest will be donated to the Baker County food bank.</p>
-            <img src="July.jpg" alt="July" align="left" width="200" height="auto">
+                <img src="July.jpg" alt="July" align="left" width="200" height="auto">
+        </p>
     </div>
-    <!-- <input type="radio" id="Kitchenware" name="Clubs">
+    <input type="radio" id="Cooking" name="Clubs">
+    <label for="Cooking">Cooking</label>
+    <div class="tab">
+        <h3>Welcome to the Cooking part of our club.</h3>  
+
+    </div>
+    <input type="radio" id="Events" name="Clubs">
+    <label for="Events">Events</label>
+    <div class="tab">
+        <h1>Our Upcoming Events</h1>
+        <h2>
+        <ol>
+            <ul>
+                Trojan Fest 8-31
+            </ul>
+            <br>
+            <ul>
+                Introduction Meeting 9-7
+            </ul>
+            <br>
+            <ul>
+                Day of Service 9-21
+            </ul>
+        </ol>
+        </h2>
+    </div>
+   <!-- CREATE TAB THAT LINKS TO DISCORD WHEN CLICKED
+    <input type="radio" id="Discord" name="Clubs">
+    <label for="Discord">Discord</label>
+    <div class="tab">
+        Our Club <a href="https://discord.gg/mM5Y78suYX">Discord</a><br>
+     </div> -->
+    <!-- CREATE FORM FOR KITCHENWARE
+         <input type="radio" id="Kitchenware" name="Clubs">
     <label for="Kitchenware">Kitchenware</label>
     <div class="tab">
         <p>This will be the form to fill out when wanting to rent Kitchenware!!</p>
@@ -122,8 +166,8 @@
 </div>
 <body>
     <br><br>
-    <div class="Twitter">
-        <a class="twitter-timeline"  data-theme="dark" data-height="668" href="https://twitter.com/DSUCookGarden?ref_src=twsrc%5Etfw">Tweets by DSUCookGarden</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div class="Twitter" style="position:relative; top:-15px;">
+        <a class="twitter-timeline"  data-theme="dark" data-height="100vh" href="https://twitter.com/DSUCookGarden?ref_src=twsrc%5Etfw">Tweets by DSUCookGarden</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 
 </body>
