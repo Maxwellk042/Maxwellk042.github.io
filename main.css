@@ -19,7 +19,8 @@ body {
 }
 
 .mytabs label {
-    padding: 1vh;
+    padding: .75vh;
+    height: 5vh;
     background: black;
     font-weight: bold;
 }
